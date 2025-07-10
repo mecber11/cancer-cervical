@@ -1,0 +1,1 @@
+"""Modulo del proyecto SIPaKMeD"""
