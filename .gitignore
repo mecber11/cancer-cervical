@@ -1,0 +1,4 @@
+# Modelos pesados
+data/models/*.h5
+data/models/best_model.h5
+data/models/sipakmed_ResNet50.h5
