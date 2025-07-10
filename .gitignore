@@ -1,4 +1,14 @@
-# Modelos pesados
-data/models/*.h5
-data/models/best_model.h5
-data/models/sipakmed_ResNet50.h5
+# Crear nuevo .gitignore sin los archivos .h5
+cat > .gitignore << 'EOF'
+# Archivos temporales
+__pycache__/
+*.pyc
+**/__pycache__/
+
+# Archivos del sistema
+.DS_Store
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+EOF
